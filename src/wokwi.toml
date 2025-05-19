@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = './smoke_detector.hex'
+elf = './smoke_detector.elf'
