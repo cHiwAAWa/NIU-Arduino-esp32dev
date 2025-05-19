@@ -1,4 +1,7 @@
 [wokwi]
 version = 1
-firmware = './smoke_detector.hex'
-elf = './smoke_detector.elf'
+firmware = '../.pio/build/esp32dev/firmware.bin'
+elf = '../.pio/build/esp32dev/firmware.elf'
+
+[gdb]
+gdbServerPort = 3333
